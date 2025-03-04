@@ -22,6 +22,7 @@ let package = Package(
     platforms: [
         // required because of `Duration` API
         .macOS(.v13),
+        .iOS(.v16)
     ],
     products: [
         .library(
